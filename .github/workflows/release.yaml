@@ -27,7 +27,7 @@ jobs:
         with:
           files: |
             build/app/outputs/flutter-apk/app-release.apk
-            build/windows/runner/Release/Prueba.exe
+            build/windows/runner/Release/eco_tracker_poc.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
